@@ -16,3 +16,4 @@ curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/htt
 **可能不适配**pjax
 
 【本来是直接txt文件批量下载的，奈何GithubAction的curl不能识别大括号下载方式】
+LLL
