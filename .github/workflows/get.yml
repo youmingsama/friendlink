@@ -13,10 +13,9 @@ jobs:
     steps:
     - name: Download
       run: |
-        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://akilar.top/ -o akilar.top.jpg
-        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.vanxnf.top/ -o blog.vanxnf.top.jpg
-        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://chen-shang.top/ -o chen-shang.top.jpg
-
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://youmingsama.cn/ -o youmingsama.cn.jpg
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.skihome.xyz/ -o blog.skihome.xyz.jpg
+        
         curl https://purge.jsdelivr.net/gh/youmingsama/kkks@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
