@@ -21,6 +21,7 @@ jobs:
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://aidianfirst.top/ -o aidianfirst.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/http://frankorz.com/ -o frankorz.com.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://mol.ink/ -o mol.ink.jpg
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.mis1042.com/ -o www.mis1042.com.jpg
         
         curl https://purge.jsdelivr.net/gh/youmingsama/friendlink@gh-pages/*.*
     - name: Deploy
